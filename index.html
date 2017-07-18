@@ -5,15 +5,17 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </header>
     <body>
-        Tempterature: <input type="text" name="tempInput"><br>
-        <input type="radio" name="tempType" value="f"> F <br>
-        <input type="radio" name="tempType" value="c"> C <br>
+        Tempterature: <input type="text" id="tempInput"><br>
+        <input type="radio" name="tempType" value="f" id="but"> F <br>
+        <input type="radio" name="tempType" value="c" id="cel"> C <br>
         
         <div class="result">
-            <input id="converter" type="button" value="execute" onclick="determineConverter();" />
+            <input id="converter" type="button" value="execute">
         </div>
         
-        
+        <div id="result">
+        <p></p>
+        </div>
         
         
         <script src="converter.js"></script>
